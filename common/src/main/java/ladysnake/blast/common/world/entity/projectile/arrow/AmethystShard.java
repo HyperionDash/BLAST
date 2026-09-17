@@ -30,7 +30,7 @@ public class AmethystShard extends AbstractArrow {
     public AmethystShard(EntityType<? extends AmethystShard> type, Level level) {
         super(type, level);
         setSoundEvent(getDefaultHitGroundSoundEvent());
-        setBaseDamage(8);
+        setBaseDamage(4);
         pickup = Pickup.DISALLOWED;
     }
 
